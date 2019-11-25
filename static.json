@@ -5,7 +5,7 @@
    },
    "proxies": {
        "/api": {
-           "origin": "https://blog-app-mern-m-server.herokuapp.com"
+           "origin": "https://blog-app-mern-m-server.herokuapp.com/api"
        }
    }
 }
