@@ -39,7 +39,6 @@ class SinglePost extends Component {
                   <FaFacebookF/>
                   Share
                 </ShareButton>
-                
                   <Comments href={BASE_URL} />
                 </FacebookProvider>
                 
