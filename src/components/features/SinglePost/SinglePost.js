@@ -35,11 +35,11 @@ class SinglePost extends Component {
                 <HtmlBox>{ singlePost.content }</HtmlBox>
         
                 <FacebookProvider appId="1464353420407801">
-                <ShareButton className='btnFacebook' href={BASE_URL}>
+                <ShareButton className='btnFacebook' href={`${BASE_URL}`}>
                   <FaFacebookF/>
                   Share
                 </ShareButton>
-                  <Comments href={BASE_URL} />
+                  <Comments href={`${BASE_URL}`} />
                 </FacebookProvider>
                 
             </div> 
